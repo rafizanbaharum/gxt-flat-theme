@@ -1,0 +1,187 @@
+<!--
+
+    Sencha GXT 3.0.1 - Sencha for GWT
+    Copyright(c) 2007-2012, Sencha, Inc.
+    licensing@sencha.com
+
+    http://www.sencha.com/products/gxt/license/
+
+-->
+<module rename-to="Flat">
+
+    <source path="client"/>
+    <source path="public"/>
+
+    <inherits name="com.sencha.gxt.theme.base.Base"/>
+
+    <replace-with class="net.canang.theme.flat.client.button.FlatButtonCellAppearance">
+        <when-type-is class="com.sencha.gxt.cell.core.client.ButtonCell.ButtonCellAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.FlatThemeAppearance">
+        <when-type-is class="com.sencha.gxt.core.client.resources.ThemeStyles.ThemeAppearance"/>
+    </replace-with>
+
+    <!-- Buttons -->
+    <replace-with class="net.canang.theme.flat.client.button.FlatButtonGroupAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.button.ButtonGroup.ButtonGroupAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.grid.FlatGridAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.grid.GridView.GridAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.grid.FlatColumnHeaderAppearance">
+        <when-type-assignable class="com.sencha.gxt.widget.core.client.grid.ColumnHeader.ColumnHeaderAppearance"/>
+    </replace-with>
+
+
+    <replace-with class="net.canang.theme.flat.client.toolbar.FlatToolBarButtonAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.toolbar.ToolBarButton.ToolBarButtonAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.progress.FlatProgressBarAppearance">
+        <when-type-is class="com.sencha.gxt.cell.core.client.ProgressBarCell.ProgressBarAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.panel.FlatContentPanelAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.ContentPanel.ContentPanelAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.window.FlatWindowAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.Window.WindowAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.panel.FlatAccordionLayoutAppearance">
+        <when-type-is
+                class="com.sencha.gxt.widget.core.client.container.AccordionLayoutContainer.AccordionLayoutAppearance"/>
+    </replace-with>
+
+    <!-- Menu Bar -->
+    <replace-with class="net.canang.theme.flat.client.menu.FlatMenuBarAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.MenuBar.MenuBarAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.menu.FlatMenuBarItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.MenuBarItem.MenuBarItemAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.widget.FlatDatePickerAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.DatePicker.DatePickerAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.field.FlatFieldSetAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.form.FieldSet.FieldSetAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.tree.FlatTreeAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.tree.Tree.TreeAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.panel.FlatContentPanelAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.ContentPanel.ContentPanelAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.panel.FlatFramedPanelAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.FramedPanel.FramedPanelAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.panel.FlatPanelHeaderAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.ContentPanel.PanelHeaderAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.toolbar.FlatToolBarAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.toolbar.ToolBar.ToolBarAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.toolbar.FlatSeparatorToolItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.toolbar.SeparatorToolItem.SeparatorToolItemAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.tools.FlatTools">
+        <when-type-is class="com.sencha.gxt.widget.core.client.button.Tools"/>
+    </replace-with>
+
+    <!-- Menu -->
+    <replace-with class="net.canang.theme.flat.client.menu.FlatMenuAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.Menu.MenuAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.menu.FlatItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.Item.ItemAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.menu.FlatMenuItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.MenuItem.MenuItemAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.menu.FlatHeaderMenuItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.HeaderMenuItem.HeaderMenuItemAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.menu.FlatSeparatorMenuItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.SeparatorMenuItem.SeparatorMenuItemAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.menu.FlatCheckMenuItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.CheckMenuItem.CheckMenuItemAppearance"/>
+    </replace-with>
+
+    <!-- Status -->
+    <replace-with class="net.canang.theme.flat.client.status.FlatStatusAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.Status.StatusAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.status.FlatBoxStatusAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.Status.BoxStatusAppearance"/>
+    </replace-with>
+
+    <!-- Tab Panel -->
+    <replace-with class="net.canang.theme.flat.client.tabs.FlatTabPanelAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.TabPanel.TabPanelAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.tabs.FlatTabPanelBottomAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.TabPanel.TabPanelBottomAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.tabs.FlatPlainTabPanelAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.PlainTabPanel.PlainTabPanelAppearance"/>
+    </replace-with>
+
+    <!-- Color Palette -->
+    <replace-with class="net.canang.theme.flat.client.colorpalette.FlatColorPaletteAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.ColorPaletteCell.ColorPaletteAppearance"/>
+    </replace-with>
+
+    <!-- Slider -->
+    <replace-with class="net.canang.theme.flat.client.slider.FlatSliderHorizontalAppearance">
+        <any>
+            <when-type-is class="com.sencha.gxt.cell.core.client.SliderCell.SliderAppearance"/>
+            <when-type-is class="com.sencha.gxt.cell.core.client.SliderCell.HorizontalSliderAppearance"/>
+        </any>
+    </replace-with>
+    <replace-with class="net.canang.theme.flat.client.slider.FlatSliderVerticalAppearance">
+        <when-type-is class="com.sencha.gxt.cell.core.client.SliderCell.VerticalSliderAppearance"/>
+    </replace-with>
+
+    <replace-with class="net.canang.theme.flat.client.container.FlatBorderLayoutAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.container.BorderLayoutContainer.BorderLayoutAppearance"/>
+    </replace-with>
+
+    <!-- Resizable -->
+    <replace-with class="net.canang.theme.flat.client.resizable.FlatResizableAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.Resizable.ResizableAppearance"/>
+    </replace-with>
+
+    <!-- Status proxy -->
+    <replace-with class="net.canang.theme.flat.client.statusproxy.FlatStatusProxyAppearance">
+        <when-type-is class="com.sencha.gxt.dnd.core.client.StatusProxy.StatusProxyAppearance"/>
+    </replace-with>
+
+    <!-- Paging tool bar -->
+    <replace-with class="net.canang.theme.flat.client.toolbar.FlatPagingToolBarAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.toolbar.PagingToolBar.PagingToolBarAppearance"/>
+    </replace-with>
+
+</module>

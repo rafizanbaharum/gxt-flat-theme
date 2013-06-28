@@ -1,0 +1,6 @@
+@sprite .header {
+  background-color: #f9f9f9;
+  gwt-image: 'columnHeader';
+  height: auto;
+  background-position: bottom;
+}
